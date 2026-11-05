@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": "issue-1-349020ed",
+    "title": "高频气象能源等数据分析与多类组合图",
+    "author": "speng4610-cyber",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "信息层次丰富并且学术性极强",
+    "usage": "用于区域高频结果分析与展示，特别是空间局部放大分析",
+    "category": "地图与空间",
+    "image": "assets/issue-1-349020ed.jpg",
+    "paper": "",
+    "palette": [
+      {
+        "hex": "#EA9B80",
+        "rgb": [
+          234,
+          155,
+          128
+        ],
+        "weight": 23.3
+      },
+      {
+        "hex": "#644C4A",
+        "rgb": [
+          100,
+          76,
+          74
+        ],
+        "weight": 22.5
+      },
+      {
+        "hex": "#D2594C",
+        "rgb": [
+          210,
+          89,
+          76
+        ],
+        "weight": 19.8
+      },
+      {
+        "hex": "#F6DFD2",
+        "rgb": [
+          246,
+          223,
+          210
+        ],
+        "weight": 17.4
+      },
+      {
+        "hex": "#EFB89F",
+        "rgb": [
+          239,
+          184,
+          159
+        ],
+        "weight": 17.0
+      }
+    ],
+    "issue_number": 1,
+    "issue_url": "https://github.com/speng4610-cyber/scientific-figure-atlas/issues/1"
+  }
+]
