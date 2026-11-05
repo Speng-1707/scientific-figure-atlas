@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="分享、分类和收藏优秀科研图片及其配色">
+  <title>科研图鉴 · Figure Atlas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="./">◈ 科研图鉴 <span>FIGURE ATLAS</span></a>
+    <a class="button" id="submit-link" href="#">＋ 分享一张好图</a>
+  </header>
+  <main>
+    <section class="hero">
+      <div>
+        <div class="eyebrow">A SHARED LIBRARY OF SCIENTIFIC INSPIRATION</div>
+        <h1>收藏好图，<br>让下一次表达更出色。</h1>
+        <p class="intro">从论文中发现值得借鉴的视觉表达。通过 GitHub 投稿图片和论文，自动归类并提取代表性色号。</p>
+      </div>
+      <div class="color-study" aria-hidden="true">
+        <small>COLOR NOTES / 配色灵感</small>
+        <div class="swatches"><i></i><i></i><i></i><i></i><i></i></div>
+        <p>自动提取 · HEX / RGB · 点击复制</p>
+      </div>
+    </section>
+    <section class="how">
+      <strong>如何投稿</strong>
+      <span>登录 GitHub → 填写投稿表 → 拖入图片和论文 → 自动处理并收录</span>
+    </section>
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="搜索标题、论文、推荐理由或未来用途…" aria-label="搜索收藏">
+      <select id="filter" aria-label="筛选分类"><option value="">全部分类</option></select>
+      <span id="count" aria-live="polite">正在读取…</span>
+    </div>
+    <div id="gallery" class="grid"></div>
+  </main>
+  <footer><span>FIGURE ATLAS · 让科研灵感有迹可循</span><span>由 GitHub Pages 与 Actions 驱动</span></footer>
+  <dialog id="detail-dialog"><div class="modal-head"><h2 id="detail-title"></h2><button class="close" aria-label="关闭">×</button></div><div class="modal-content" id="detail-body"></div></dialog>
+  <div id="toast" hidden role="status"></div>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

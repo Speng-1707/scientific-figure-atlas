@@ -1,0 +1,72 @@
+name: 分享科研图片
+description: 上传一张优秀科研图片，可选附上论文 PDF
+title: "[投稿] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢分享！提交后 GitHub Actions 会自动归类、提取代表色，并将内容加入网页。
+        请只上传你有权公开分享的图片和论文。公开仓库中的附件和处理结果对所有人可见。
+  - type: input
+    id: title
+    attributes:
+      label: 图片标题
+      placeholder: 例如：清晰展示调控通路的机制图
+    validations:
+      required: true
+  - type: input
+    id: paper-title
+    attributes:
+      label: 所属论文标题
+      placeholder: 论文完整标题（可选）
+  - type: dropdown
+    id: category
+    attributes:
+      label: 分类
+      options:
+        - 自动分类
+        - 统计图表
+        - 热图与矩阵
+        - 机制与示意图
+        - 流程与框架
+        - 显微与影像
+        - 地图与空间
+        - 网络与关系
+        - 其他 / 待分类
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 为什么觉得这张图好？
+      placeholder: 信息层次、图形布局、配色或标注方式……
+    validations:
+      required: true
+  - type: textarea
+    id: usage
+    attributes:
+      label: 以后可以用在哪里？
+      placeholder: 综述机制总结、项目汇报或结果对比……
+    validations:
+      required: true
+  - type: textarea
+    id: image
+    attributes:
+      label: 科研图片
+      description: 将一张 PNG、JPG、WebP 或 TIFF 图片拖入下方输入框，等待上传完成并出现链接。
+      placeholder: 把图片拖到这里
+    validations:
+      required: true
+  - type: textarea
+    id: paper
+    attributes:
+      label: 论文 PDF（可选）
+      description: 可将论文 PDF 拖入这里；请确认你有权公开分享全文。
+      placeholder: 把 PDF 拖到这里
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: 公开分享确认
+      options:
+        - label: 我确认有权公开分享以上内容，并同意将处理结果保存到此公开仓库。
+          required: true
