@@ -1,5 +1,187 @@
 [
   {
+    "id": "anon-mw3rcqu2-19dbed70",
+    "title": "待补充标题",
+    "author": "anonymous",
+    "contributor_name": "匿名投稿者",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "",
+    "why": "快速上传，推荐理由待补充。",
+    "usage": "未来用途待补充。",
+    "image": "assets/anon-mw3rcqu2-19dbed70.jpg",
+    "paper": "",
+    "issue_number": "",
+    "issue_url": "",
+    "category": "其他 / 待分类",
+    "palette": [
+      {
+        "hex": "#0000FF",
+        "rgb": [
+          0,
+          0,
+          255
+        ],
+        "weight": 29.2
+      },
+      {
+        "hex": "#F9C5DA",
+        "rgb": [
+          249,
+          197,
+          218
+        ],
+        "weight": 13.2
+      },
+      {
+        "hex": "#E8236E",
+        "rgb": [
+          232,
+          35,
+          110
+        ],
+        "weight": 8.1
+      },
+      {
+        "hex": "#FE8F17",
+        "rgb": [
+          254,
+          143,
+          23
+        ],
+        "weight": 7.5
+      },
+      {
+        "hex": "#EB4283",
+        "rgb": [
+          235,
+          66,
+          131
+        ],
+        "weight": 5.7
+      },
+      {
+        "hex": "#6A4F70",
+        "rgb": [
+          106,
+          79,
+          112
+        ],
+        "weight": 5.3
+      },
+      {
+        "hex": "#6D1756",
+        "rgb": [
+          109,
+          23,
+          86
+        ],
+        "weight": 4.7
+      },
+      {
+        "hex": "#787A95",
+        "rgb": [
+          120,
+          122,
+          149
+        ],
+        "weight": 3.7
+      },
+      {
+        "hex": "#B3BCC5",
+        "rgb": [
+          179,
+          188,
+          197
+        ],
+        "weight": 3.5
+      },
+      {
+        "hex": "#E6AEC3",
+        "rgb": [
+          230,
+          174,
+          195
+        ],
+        "weight": 2.7
+      },
+      {
+        "hex": "#000048",
+        "rgb": [
+          0,
+          0,
+          72
+        ],
+        "weight": 2.6
+      },
+      {
+        "hex": "#C8376E",
+        "rgb": [
+          200,
+          55,
+          110
+        ],
+        "weight": 2.5
+      },
+      {
+        "hex": "#F6EDE5",
+        "rgb": [
+          246,
+          237,
+          229
+        ],
+        "weight": 2.4
+      },
+      {
+        "hex": "#0B0BCE",
+        "rgb": [
+          11,
+          11,
+          206
+        ],
+        "weight": 2.3
+      },
+      {
+        "hex": "#E7A961",
+        "rgb": [
+          231,
+          169,
+          97
+        ],
+        "weight": 2.0
+      },
+      {
+        "hex": "#F3D4C8",
+        "rgb": [
+          243,
+          212,
+          200
+        ],
+        "weight": 1.9
+      },
+      {
+        "hex": "#EDEDFF",
+        "rgb": [
+          237,
+          237,
+          255
+        ],
+        "weight": 1.5
+      },
+      {
+        "hex": "#E8C1B5",
+        "rgb": [
+          232,
+          193,
+          181
+        ],
+        "weight": 1.4
+      }
+    ],
+    "rating": 5,
+    "source_type": "anonymous"
+  },
+  {
     "id": "issue-1-349020ed",
     "title": "高频气象能源等数据分析与多类组合图",
     "author": "speng4610-cyber",
