@@ -11,52 +11,174 @@
     "paper": "",
     "palette": [
       {
-        "hex": "#EA9B80",
+        "hex": "#F89B7A",
         "rgb": [
-          234,
+          248,
           155,
-          128
+          122
         ],
-        "weight": 23.3
+        "weight": 8.3
       },
       {
-        "hex": "#644C4A",
+        "hex": "#F7CCB9",
         "rgb": [
-          100,
-          76,
-          74
+          247,
+          204,
+          185
         ],
-        "weight": 22.5
+        "weight": 8.2
       },
       {
-        "hex": "#D2594C",
+        "hex": "#FBAE90",
         "rgb": [
-          210,
-          89,
-          76
+          251,
+          174,
+          144
         ],
-        "weight": 19.8
+        "weight": 8.1
       },
       {
-        "hex": "#F6DFD2",
+        "hex": "#FBE6DB",
+        "rgb": [
+          251,
+          230,
+          219
+        ],
+        "weight": 7.1
+      },
+      {
+        "hex": "#F96B5D",
+        "rgb": [
+          249,
+          107,
+          93
+        ],
+        "weight": 6.8
+      },
+      {
+        "hex": "#CF473A",
+        "rgb": [
+          207,
+          71,
+          58
+        ],
+        "weight": 5.9
+      },
+      {
+        "hex": "#F68569",
         "rgb": [
           246,
-          223,
-          210
+          133,
+          105
         ],
-        "weight": 17.4
+        "weight": 5.8
       },
       {
-        "hex": "#EFB89F",
+        "hex": "#EFD7CC",
         "rgb": [
           239,
-          184,
-          159
+          215,
+          204
         ],
-        "weight": 17.0
+        "weight": 5.7
+      },
+      {
+        "hex": "#F9C59E",
+        "rgb": [
+          249,
+          197,
+          158
+        ],
+        "weight": 4.8
+      },
+      {
+        "hex": "#5A2021",
+        "rgb": [
+          90,
+          32,
+          33
+        ],
+        "weight": 4.4
+      },
+      {
+        "hex": "#E4CABB",
+        "rgb": [
+          228,
+          202,
+          187
+        ],
+        "weight": 4.1
+      },
+      {
+        "hex": "#B46555",
+        "rgb": [
+          180,
+          101,
+          85
+        ],
+        "weight": 4.1
+      },
+      {
+        "hex": "#D09C87",
+        "rgb": [
+          208,
+          156,
+          135
+        ],
+        "weight": 3.4
+      },
+      {
+        "hex": "#BE2021",
+        "rgb": [
+          190,
+          32,
+          33
+        ],
+        "weight": 3.4
+      },
+      {
+        "hex": "#BEB3AD",
+        "rgb": [
+          190,
+          179,
+          173
+        ],
+        "weight": 3.0
+      },
+      {
+        "hex": "#CC8470",
+        "rgb": [
+          204,
+          132,
+          112
+        ],
+        "weight": 2.9
+      },
+      {
+        "hex": "#E8AE92",
+        "rgb": [
+          232,
+          174,
+          146
+        ],
+        "weight": 2.5
+      },
+      {
+        "hex": "#F5F6F6",
+        "rgb": [
+          245,
+          246,
+          246
+        ],
+        "weight": 11.4
       }
     ],
     "issue_number": 1,
-    "issue_url": "https://github.com/speng4610-cyber/scientific-figure-atlas/issues/1"
+    "issue_url": "https://github.com/speng4610-cyber/scientific-figure-atlas/issues/1",
+    "recommended": true,
+    "source_type": "recommended",
+    "contributor_name": "speng4610-cyber",
+    "contributor_affiliation": "",
+    "contributor_profile": ""
   }
 ]

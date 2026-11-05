@@ -5,8 +5,25 @@ body:
   - type: markdown
     attributes:
       value: |
-        感谢分享！提交后 GitHub Actions 会自动归类、提取代表色，并将内容加入网页。
+        感谢分享！提交后 GitHub Actions 会自动归类、提取完整代表色板，并将内容加入网页。
+        推荐主图会显示星标；如果附带 PDF，其中符合尺寸要求的内嵌图片也会自动抓取并单独归档。
         请只上传你有权公开分享的图片和论文。公开仓库中的附件和处理结果对所有人可见。
+  - type: input
+    id: contributor-name
+    attributes:
+      label: 投稿人姓名或昵称
+      description: 将显示在图片卡片下方；不填写时使用 GitHub 用户名。
+      placeholder: 例如：S. Peng
+  - type: input
+    id: contributor-affiliation
+    attributes:
+      label: 所属机构（可选）
+      placeholder: 例如：某某大学能源研究中心
+  - type: input
+    id: contributor-profile
+    attributes:
+      label: 个人主页（可选）
+      placeholder: https://...
   - type: input
     id: title
     attributes:
@@ -61,7 +78,7 @@ body:
     id: paper
     attributes:
       label: 论文 PDF（可选）
-      description: 可将论文 PDF 拖入这里；请确认你有权公开分享全文。
+      description: 可将论文 PDF 拖入这里；系统将自动提取其中符合尺寸要求的内嵌图片并标注为“PDF 自动抓取”。请确认你有权公开分享全文。
       placeholder: 把 PDF 拖到这里
   - type: checkboxes
     id: rights
