@@ -40,7 +40,9 @@ def parse_sections(body: str) -> dict[str, str]:
 
 
 def first_url(text: str) -> str | None:
-    match = re.search(r"https://[^\s)>]+", text or "")
+    # GitHub Issue 附件可能是 Markdown 链接，也可能是 <img src="…">。
+    # 引号和尖括号必须作为 URL 终止符，否则下载地址会多出一个双引号并返回 404。
+    match = re.search(r"https://[^\s)>\"']+", text or "")
     return match.group(0).rstrip(".,") if match else None
 
 

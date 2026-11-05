@@ -1,6 +1,6 @@
 import unittest
 from PIL import Image
-from scripts.process_submission import classify, palette, parse_sections
+from scripts.process_submission import classify, first_url, palette, parse_sections
 
 class ProcessingTests(unittest.TestCase):
     def test_issue_sections(self):
@@ -14,5 +14,9 @@ class ProcessingTests(unittest.TestCase):
         image = Image.new("RGB", (100, 100), "#207050")
         colors = palette(image)
         self.assertEqual(colors[0]["hex"], "#207050")
+
+    def test_html_attachment_url_stops_before_quote(self):
+        html = '<img alt="Image" src="https://github.com/user-attachments/assets/example-id" />'
+        self.assertEqual(first_url(html), "https://github.com/user-attachments/assets/example-id")
 
 if __name__ == "__main__": unittest.main()
