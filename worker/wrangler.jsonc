@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "scientific-figure-atlas-upload",
+  "main": "src/index.js",
+  "compatibility_date": "2026-11-05",
+  "kv_namespaces": [{"binding": "UPLOADS", "id": "9ab6a9c9359640b9a77c120169a5bb8d"}],
+  "vars": {
+    "ALLOWED_ORIGIN": "https://speng-1707.github.io",
+    "GITHUB_REPOSITORY": "Speng-1707/scientific-figure-atlas",
+    "OIDC_AUDIENCE": "figure-atlas-sync"
+  }
+}
