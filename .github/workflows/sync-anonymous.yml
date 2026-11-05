@@ -1,6 +1,10 @@
 name: Sync anonymous uploads
 
 on:
+  push:
+    paths:
+      - ".github/workflows/sync-anonymous.yml"
+      - "scripts/process_anonymous.py"
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch:
