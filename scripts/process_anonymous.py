@@ -5,8 +5,11 @@ from io import BytesIO
 import json
 import os
 from pathlib import Path
+import sys
 from urllib.request import Request, urlopen
 
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
 from scripts.process_submission import ASSETS, DATA_FILE, SITE_DATA, classify, palette, prepare_image
 
 
