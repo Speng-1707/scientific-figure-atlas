@@ -1,5 +1,1459 @@
 [
   {
+    "id": "issue-2-5e8eb6c6",
+    "title": "高频气象信息图",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "好",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "其他 / 待分类",
+    "palette": [
+      {
+        "hex": "#0000FF",
+        "rgb": [
+          0,
+          0,
+          255
+        ],
+        "weight": 29.2
+      },
+      {
+        "hex": "#F9C5DA",
+        "rgb": [
+          249,
+          197,
+          218
+        ],
+        "weight": 13.2
+      },
+      {
+        "hex": "#E8236E",
+        "rgb": [
+          232,
+          35,
+          110
+        ],
+        "weight": 8.1
+      },
+      {
+        "hex": "#FE8F17",
+        "rgb": [
+          254,
+          143,
+          23
+        ],
+        "weight": 7.5
+      },
+      {
+        "hex": "#EB4283",
+        "rgb": [
+          235,
+          66,
+          131
+        ],
+        "weight": 5.7
+      },
+      {
+        "hex": "#6A4F70",
+        "rgb": [
+          106,
+          79,
+          112
+        ],
+        "weight": 5.3
+      },
+      {
+        "hex": "#6D1756",
+        "rgb": [
+          109,
+          23,
+          86
+        ],
+        "weight": 4.7
+      },
+      {
+        "hex": "#787A95",
+        "rgb": [
+          120,
+          122,
+          149
+        ],
+        "weight": 3.7
+      },
+      {
+        "hex": "#B3BCC5",
+        "rgb": [
+          179,
+          188,
+          197
+        ],
+        "weight": 3.5
+      },
+      {
+        "hex": "#E6AEC3",
+        "rgb": [
+          230,
+          174,
+          195
+        ],
+        "weight": 2.7
+      },
+      {
+        "hex": "#000048",
+        "rgb": [
+          0,
+          0,
+          72
+        ],
+        "weight": 2.6
+      },
+      {
+        "hex": "#C8376E",
+        "rgb": [
+          200,
+          55,
+          110
+        ],
+        "weight": 2.5
+      },
+      {
+        "hex": "#F6EDE5",
+        "rgb": [
+          246,
+          237,
+          229
+        ],
+        "weight": 2.4
+      },
+      {
+        "hex": "#0B0BCE",
+        "rgb": [
+          11,
+          11,
+          206
+        ],
+        "weight": 2.3
+      },
+      {
+        "hex": "#E7A961",
+        "rgb": [
+          231,
+          169,
+          97
+        ],
+        "weight": 2.0
+      },
+      {
+        "hex": "#F3D4C8",
+        "rgb": [
+          243,
+          212,
+          200
+        ],
+        "weight": 1.9
+      },
+      {
+        "hex": "#EDEDFF",
+        "rgb": [
+          237,
+          237,
+          255
+        ],
+        "weight": 1.5
+      },
+      {
+        "hex": "#E8C1B5",
+        "rgb": [
+          232,
+          193,
+          181
+        ],
+        "weight": 1.4
+      }
+    ],
+    "recommended": true,
+    "source_type": "recommended"
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-01",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 1",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 4 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-01.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "统计图表",
+    "palette": [
+      {
+        "hex": "#D2D2D2",
+        "rgb": [
+          210,
+          210,
+          210
+        ],
+        "weight": 51.9
+      },
+      {
+        "hex": "#EDEDED",
+        "rgb": [
+          237,
+          237,
+          237
+        ],
+        "weight": 45.9
+      },
+      {
+        "hex": "#E2E2E2",
+        "rgb": [
+          226,
+          226,
+          226
+        ],
+        "weight": 2.2
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 4
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-02",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 2",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 4 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-02.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "统计图表",
+    "palette": [
+      {
+        "hex": "#D2D2D2",
+        "rgb": [
+          210,
+          210,
+          210
+        ],
+        "weight": 66.5
+      },
+      {
+        "hex": "#F5F5F5",
+        "rgb": [
+          245,
+          245,
+          245
+        ],
+        "weight": 27.0
+      },
+      {
+        "hex": "#E4E4E4",
+        "rgb": [
+          228,
+          228,
+          228
+        ],
+        "weight": 6.5
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 4
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-03",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 3",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 4 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-03.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "统计图表",
+    "palette": [
+      {
+        "hex": "#D2D2D2",
+        "rgb": [
+          210,
+          210,
+          210
+        ],
+        "weight": 60.4
+      },
+      {
+        "hex": "#F4F4F4",
+        "rgb": [
+          244,
+          244,
+          244
+        ],
+        "weight": 31.7
+      },
+      {
+        "hex": "#E4E4E4",
+        "rgb": [
+          228,
+          228,
+          228
+        ],
+        "weight": 7.8
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 4
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-04",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 4",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 4 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-04.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "统计图表",
+    "palette": [
+      {
+        "hex": "#D2D2D2",
+        "rgb": [
+          210,
+          210,
+          210
+        ],
+        "weight": 65.3
+      },
+      {
+        "hex": "#F4F4F4",
+        "rgb": [
+          244,
+          244,
+          244
+        ],
+        "weight": 25.5
+      },
+      {
+        "hex": "#E4E4E4",
+        "rgb": [
+          228,
+          228,
+          228
+        ],
+        "weight": 9.2
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 4
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-05",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 5",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 4 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-05.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "统计图表",
+    "palette": [
+      {
+        "hex": "#D2D2D2",
+        "rgb": [
+          210,
+          210,
+          210
+        ],
+        "weight": 58.7
+      },
+      {
+        "hex": "#EDEDED",
+        "rgb": [
+          237,
+          237,
+          237
+        ],
+        "weight": 35.2
+      },
+      {
+        "hex": "#DFDFDF",
+        "rgb": [
+          223,
+          223,
+          223
+        ],
+        "weight": 6.0
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 4
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-06",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 6",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 4 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-06.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "统计图表",
+    "palette": [
+      {
+        "hex": "#D1D1D1",
+        "rgb": [
+          209,
+          209,
+          209
+        ],
+        "weight": 59.9
+      },
+      {
+        "hex": "#E4E4E4",
+        "rgb": [
+          228,
+          228,
+          228
+        ],
+        "weight": 21.9
+      },
+      {
+        "hex": "#F2F2F2",
+        "rgb": [
+          242,
+          242,
+          242
+        ],
+        "weight": 18.1
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 4
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-07",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 7",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 4 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-07.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "统计图表",
+    "palette": [
+      {
+        "hex": "#D2D2D2",
+        "rgb": [
+          210,
+          210,
+          210
+        ],
+        "weight": 61.7
+      },
+      {
+        "hex": "#F2F2F2",
+        "rgb": [
+          242,
+          242,
+          242
+        ],
+        "weight": 26.1
+      },
+      {
+        "hex": "#E3E3E3",
+        "rgb": [
+          227,
+          227,
+          227
+        ],
+        "weight": 12.2
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 4
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-08",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 8",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 5 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-08.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "统计图表",
+    "palette": [
+      {
+        "hex": "#D1D1D1",
+        "rgb": [
+          209,
+          209,
+          209
+        ],
+        "weight": 56.6
+      },
+      {
+        "hex": "#EAEAEA",
+        "rgb": [
+          234,
+          234,
+          234
+        ],
+        "weight": 24.3
+      },
+      {
+        "hex": "#DEDEDE",
+        "rgb": [
+          222,
+          222,
+          222
+        ],
+        "weight": 17.6
+      },
+      {
+        "hex": "#F5F5F5",
+        "rgb": [
+          245,
+          245,
+          245
+        ],
+        "weight": 1.5
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 5
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-09",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 9",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 5 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-09.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "统计图表",
+    "palette": [
+      {
+        "hex": "#D2D2D2",
+        "rgb": [
+          210,
+          210,
+          210
+        ],
+        "weight": 63.0
+      },
+      {
+        "hex": "#E4E4E4",
+        "rgb": [
+          228,
+          228,
+          228
+        ],
+        "weight": 24.2
+      },
+      {
+        "hex": "#F2F2F2",
+        "rgb": [
+          242,
+          242,
+          242
+        ],
+        "weight": 12.8
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 5
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-10",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 10",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 5 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-10.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "统计图表",
+    "palette": [
+      {
+        "hex": "#D1D1D1",
+        "rgb": [
+          209,
+          209,
+          209
+        ],
+        "weight": 57.9
+      },
+      {
+        "hex": "#EDEDED",
+        "rgb": [
+          237,
+          237,
+          237
+        ],
+        "weight": 26.8
+      },
+      {
+        "hex": "#E0E0E0",
+        "rgb": [
+          224,
+          224,
+          224
+        ],
+        "weight": 15.3
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 5
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-11",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 11",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 5 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-11.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "统计图表",
+    "palette": [
+      {
+        "hex": "#D2D2D2",
+        "rgb": [
+          210,
+          210,
+          210
+        ],
+        "weight": 58.3
+      },
+      {
+        "hex": "#F3F3F3",
+        "rgb": [
+          243,
+          243,
+          243
+        ],
+        "weight": 22.7
+      },
+      {
+        "hex": "#E8E8E8",
+        "rgb": [
+          232,
+          232,
+          232
+        ],
+        "weight": 15.7
+      },
+      {
+        "hex": "#DDDDDD",
+        "rgb": [
+          221,
+          221,
+          221
+        ],
+        "weight": 3.4
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 5
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-12",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 12",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 5 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-12.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "统计图表",
+    "palette": [
+      {
+        "hex": "#D1D1D1",
+        "rgb": [
+          209,
+          209,
+          209
+        ],
+        "weight": 73.4
+      },
+      {
+        "hex": "#E8E8E8",
+        "rgb": [
+          232,
+          232,
+          232
+        ],
+        "weight": 19.8
+      },
+      {
+        "hex": "#DCDCDC",
+        "rgb": [
+          220,
+          220,
+          220
+        ],
+        "weight": 4.9
+      },
+      {
+        "hex": "#F3F3F3",
+        "rgb": [
+          243,
+          243,
+          243
+        ],
+        "weight": 2.0
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 5
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-13",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 13",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 5 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-13.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "统计图表",
+    "palette": [
+      {
+        "hex": "#D2D2D2",
+        "rgb": [
+          210,
+          210,
+          210
+        ],
+        "weight": 71.3
+      },
+      {
+        "hex": "#E8E8E8",
+        "rgb": [
+          232,
+          232,
+          232
+        ],
+        "weight": 17.8
+      },
+      {
+        "hex": "#F5F5F5",
+        "rgb": [
+          245,
+          245,
+          245
+        ],
+        "weight": 9.7
+      },
+      {
+        "hex": "#DDDDDD",
+        "rgb": [
+          221,
+          221,
+          221
+        ],
+        "weight": 1.2
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 5
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-14",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 14",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 5 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-14.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "统计图表",
+    "palette": [
+      {
+        "hex": "#D1D1D1",
+        "rgb": [
+          209,
+          209,
+          209
+        ],
+        "weight": 60.2
+      },
+      {
+        "hex": "#EAEAEA",
+        "rgb": [
+          234,
+          234,
+          234
+        ],
+        "weight": 23.1
+      },
+      {
+        "hex": "#DEDEDE",
+        "rgb": [
+          222,
+          222,
+          222
+        ],
+        "weight": 14.3
+      },
+      {
+        "hex": "#F7F7F7",
+        "rgb": [
+          247,
+          247,
+          247
+        ],
+        "weight": 2.4
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 5
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-15",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 15",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 5 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-15.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "统计图表",
+    "palette": [
+      {
+        "hex": "#D1D1D1",
+        "rgb": [
+          209,
+          209,
+          209
+        ],
+        "weight": 54.3
+      },
+      {
+        "hex": "#EDEDED",
+        "rgb": [
+          237,
+          237,
+          237
+        ],
+        "weight": 30.5
+      },
+      {
+        "hex": "#E2E2E2",
+        "rgb": [
+          226,
+          226,
+          226
+        ],
+        "weight": 15.1
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 5
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-16",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 16",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 5 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-16.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "统计图表",
+    "palette": [
+      {
+        "hex": "#D1D1D1",
+        "rgb": [
+          209,
+          209,
+          209
+        ],
+        "weight": 59.7
+      },
+      {
+        "hex": "#F5F5F5",
+        "rgb": [
+          245,
+          245,
+          245
+        ],
+        "weight": 26.8
+      },
+      {
+        "hex": "#E3E3E3",
+        "rgb": [
+          227,
+          227,
+          227
+        ],
+        "weight": 13.5
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 5
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-17",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 17",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 5 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-17.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "统计图表",
+    "palette": [
+      {
+        "hex": "#D2D2D2",
+        "rgb": [
+          210,
+          210,
+          210
+        ],
+        "weight": 49.6
+      },
+      {
+        "hex": "#F4F4F4",
+        "rgb": [
+          244,
+          244,
+          244
+        ],
+        "weight": 37.9
+      },
+      {
+        "hex": "#E3E3E3",
+        "rgb": [
+          227,
+          227,
+          227
+        ],
+        "weight": 12.5
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 5
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-18",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 18",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 5 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-18.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "统计图表",
+    "palette": [
+      {
+        "hex": "#D1D1D1",
+        "rgb": [
+          209,
+          209,
+          209
+        ],
+        "weight": 56.6
+      },
+      {
+        "hex": "#F4F4F4",
+        "rgb": [
+          244,
+          244,
+          244
+        ],
+        "weight": 30.1
+      },
+      {
+        "hex": "#E2E2E2",
+        "rgb": [
+          226,
+          226,
+          226
+        ],
+        "weight": 13.3
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 5
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-19",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 19",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 6 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-19.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "机制与示意图",
+    "palette": [
+      {
+        "hex": "#D2D2D2",
+        "rgb": [
+          210,
+          210,
+          210
+        ],
+        "weight": 63.9
+      },
+      {
+        "hex": "#E8E8E8",
+        "rgb": [
+          232,
+          232,
+          232
+        ],
+        "weight": 27.7
+      },
+      {
+        "hex": "#F6F6F6",
+        "rgb": [
+          246,
+          246,
+          246
+        ],
+        "weight": 8.1
+      },
+      {
+        "hex": "#DDDDDD",
+        "rgb": [
+          221,
+          221,
+          221
+        ],
+        "weight": 0.4
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 6
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-20",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 20",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 6 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-20.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "机制与示意图",
+    "palette": [
+      {
+        "hex": "#D1D1D1",
+        "rgb": [
+          209,
+          209,
+          209
+        ],
+        "weight": 64.3
+      },
+      {
+        "hex": "#E0E0E0",
+        "rgb": [
+          224,
+          224,
+          224
+        ],
+        "weight": 18.2
+      },
+      {
+        "hex": "#EDEDED",
+        "rgb": [
+          237,
+          237,
+          237
+        ],
+        "weight": 17.5
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 6
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-21",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 21",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 6 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-21.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "机制与示意图",
+    "palette": [
+      {
+        "hex": "#D2D2D2",
+        "rgb": [
+          210,
+          210,
+          210
+        ],
+        "weight": 65.1
+      },
+      {
+        "hex": "#E8E8E8",
+        "rgb": [
+          232,
+          232,
+          232
+        ],
+        "weight": 21.2
+      },
+      {
+        "hex": "#F4F4F4",
+        "rgb": [
+          244,
+          244,
+          244
+        ],
+        "weight": 9.9
+      },
+      {
+        "hex": "#DDDDDD",
+        "rgb": [
+          221,
+          221,
+          221
+        ],
+        "weight": 3.9
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 6
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-22",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 22",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 6 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-22.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "机制与示意图",
+    "palette": [
+      {
+        "hex": "#D3D3D3",
+        "rgb": [
+          211,
+          211,
+          211
+        ],
+        "weight": 58.1
+      },
+      {
+        "hex": "#E5E5E5",
+        "rgb": [
+          229,
+          229,
+          229
+        ],
+        "weight": 23.3
+      },
+      {
+        "hex": "#F4F4F4",
+        "rgb": [
+          244,
+          244,
+          244
+        ],
+        "weight": 18.6
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 6
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-23",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 23",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 6 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-23.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "机制与示意图",
+    "palette": [
+      {
+        "hex": "#D2D2D2",
+        "rgb": [
+          210,
+          210,
+          210
+        ],
+        "weight": 55.0
+      },
+      {
+        "hex": "#F5F5F5",
+        "rgb": [
+          245,
+          245,
+          245
+        ],
+        "weight": 22.7
+      },
+      {
+        "hex": "#E5E5E5",
+        "rgb": [
+          229,
+          229,
+          229
+        ],
+        "weight": 22.4
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 6
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-24",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 24",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 6 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-24.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "机制与示意图",
+    "palette": [
+      {
+        "hex": "#D2D2D2",
+        "rgb": [
+          210,
+          210,
+          210
+        ],
+        "weight": 59.2
+      },
+      {
+        "hex": "#EFEFEF",
+        "rgb": [
+          239,
+          239,
+          239
+        ],
+        "weight": 30.8
+      },
+      {
+        "hex": "#E3E3E3",
+        "rgb": [
+          227,
+          227,
+          227
+        ],
+        "weight": 10.0
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 6
+  },
+  {
+    "id": "issue-2-5e8eb6c6-pdf-25",
+    "title": "Temporally compounding energy droughts in European electricity systems with hydropower · 自动抓取图 25",
+    "author": "Speng-1707",
+    "contributor_name": "S.Peng",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "Temporally compounding energy droughts in European electricity systems with hydropower",
+    "why": "从投稿论文 PDF 第 6 页自动抓取，尚未经过人工推荐。",
+    "usage": "好",
+    "image": "assets/issue-2-5e8eb6c6-pdf-25.jpg",
+    "paper": "assets/issue-2-5e8eb6c6.pdf",
+    "issue_number": 2,
+    "issue_url": "https://github.com/Speng-1707/scientific-figure-atlas/issues/2",
+    "category": "机制与示意图",
+    "palette": [
+      {
+        "hex": "#D1D1D1",
+        "rgb": [
+          209,
+          209,
+          209
+        ],
+        "weight": 57.4
+      },
+      {
+        "hex": "#EBEBEB",
+        "rgb": [
+          235,
+          235,
+          235
+        ],
+        "weight": 32.2
+      },
+      {
+        "hex": "#DCDCDC",
+        "rgb": [
+          220,
+          220,
+          220
+        ],
+        "weight": 5.6
+      },
+      {
+        "hex": "#F7F7F7",
+        "rgb": [
+          247,
+          247,
+          247
+        ],
+        "weight": 4.7
+      }
+    ],
+    "recommended": false,
+    "source_type": "pdf_auto",
+    "pdf_page": 6
+  },
+  {
     "id": "issue-1-349020ed",
     "title": "高频气象能源等数据分析与多类组合图",
     "author": "speng4610-cyber",
