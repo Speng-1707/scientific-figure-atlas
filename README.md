@@ -30,12 +30,12 @@ GitHub Issue 投稿
 
 ## 首次部署
 
-1. 创建公开仓库 `speng4610-cyber/scientific-figure-atlas`。
+1. 创建公开仓库 `Speng-1707/scientific-figure-atlas`。
 2. 推送本项目到仓库的 `main` 分支。
 3. 在仓库 `Settings → Pages → Build and deployment → Source` 选择 **GitHub Actions**。
 4. 在 Actions 页面运行 `Deploy GitHub Pages`，或再次推送 `site/` 内任意文件。
 
-网站地址预计为：<https://speng4610-cyber.github.io/scientific-figure-atlas/>
+网站地址：<https://speng-1707.github.io/scientific-figure-atlas/>
 
 ## 本地预览和测试
 

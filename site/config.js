@@ -1,4 +1,4 @@
 window.FIGURE_ATLAS_CONFIG = {
-  repository: "speng4610-cyber/scientific-figure-atlas",
+  repository: "Speng-1707/scientific-figure-atlas",
   submissionTemplate: "submit.yml"
 };
