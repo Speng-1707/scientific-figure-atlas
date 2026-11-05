@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         感谢分享！提交后 GitHub Actions 会自动归类、提取完整代表色板，并将内容加入网页。
-        推荐主图会显示星标；如果附带 PDF，其中符合尺寸要求的内嵌图片也会自动抓取并单独归档。
+        请为推荐图片选择 1–5 星评分；PDF 仅作为论文附件保存和下载。
         请只上传你有权公开分享的图片和论文。公开仓库中的附件和处理结果对所有人可见。
   - type: input
     id: contributor-name
@@ -52,6 +52,19 @@ body:
         - 其他 / 待分类
     validations:
       required: true
+  - type: dropdown
+    id: rating
+    attributes:
+      label: 推荐评分
+      description: 请根据视觉表达、信息层次和可借鉴程度综合评分。
+      options:
+        - 5 星 ★★★★★
+        - 4 星 ★★★★☆
+        - 3 星 ★★★☆☆
+        - 2 星 ★★☆☆☆
+        - 1 星 ★☆☆☆☆
+    validations:
+      required: true
   - type: textarea
     id: why
     attributes:
@@ -78,7 +91,7 @@ body:
     id: paper
     attributes:
       label: 论文 PDF（可选）
-      description: 可将论文 PDF 拖入这里；系统将自动提取其中符合尺寸要求的内嵌图片并标注为“PDF 自动抓取”。请确认你有权公开分享全文。
+      description: 可将论文 PDF 拖入这里，作为主图的来源论文附件保存和下载。请确认你有权公开分享全文。
       placeholder: 把 PDF 拖到这里
   - type: checkboxes
     id: rights

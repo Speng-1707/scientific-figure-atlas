@@ -1,0 +1,83 @@
+name: Delete gallery records
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: figure-data-updates
+  cancel-in-progress: false
+
+jobs:
+  delete:
+    if: startsWith(github.event.issue.title, '[删除]') && contains(fromJson('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Delete requested records
+        id: delete
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: python scripts/delete_records.py
+      - name: Commit gallery deletion
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data site/data site/assets
+          git commit -m "Delete gallery records from issue #${{ github.event.issue.number }}"
+          git push origin HEAD:main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - name: Deploy updated gallery
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Confirm deletion
+        uses: actions/github-script@v8
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `已删除 ${{ steps.delete.outputs.count }} 条图库记录，并更新[科研图鉴](${{ steps.deployment.outputs.page_url }})。`
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed',
+              state_reason: 'completed'
+            });
+
+  report-failure:
+    needs: delete
+    if: failure() && startsWith(github.event.issue.title, '[删除]')
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/github-script@v8
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: '删除失败，请确认记录仍然存在，并查看 Actions 日志。'
+            });

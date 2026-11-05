@@ -1,4 +1,4 @@
-"""把 GitHub Issue 投稿、主图及 PDF 内嵌图片转成静态图库记录。"""
+"""把 GitHub Issue 投稿图片转成静态图库记录，并将 PDF 保留为附件。"""
 from __future__ import annotations
 
 from io import BytesIO
@@ -11,7 +11,6 @@ from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 from uuid import uuid4
 
-import pymupdf as fitz
 from PIL import Image, ImageOps, UnidentifiedImageError
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -20,7 +19,6 @@ SITE_DATA = ROOT / "site" / "data" / "figures.json"
 ASSETS = ROOT / "site" / "assets"
 MAX_IMAGE_BYTES = 20 * 1024 * 1024
 MAX_PDF_BYTES = 40 * 1024 * 1024
-MAX_PDF_FIGURES = 30
 MAX_PALETTE_COLORS = 18
 ALLOWED_HOSTS = {"github.com", "user-images.githubusercontent.com", "private-user-images.githubusercontent.com"}
 CATEGORIES = {
@@ -141,49 +139,6 @@ def base_record(identifier: str, sections: dict[str, str], paper_path: str, imag
     }
 
 
-def extract_pdf_records(paper_bytes: bytes, identifier: str, sections: dict[str, str], paper_path: str) -> list[dict]:
-    """提取 PDF 内嵌的主要栅格图片；小图标和重复图片会被过滤。"""
-    records = []
-    seen_xrefs = set()
-    document = fitz.open(stream=paper_bytes, filetype="pdf")
-    try:
-        for page_number, page in enumerate(document, start=1):
-            page_text = page.get_text("text")
-            for image_info in page.get_images(full=True):
-                xref = image_info[0]
-                if xref in seen_xrefs:
-                    continue
-                seen_xrefs.add(xref)
-                extracted = document.extract_image(xref)
-                try:
-                    image = prepare_image(extracted["image"])
-                except ValueError:
-                    continue
-                width, height = image.size
-                if width < 220 or height < 160 or width * height < 60_000:
-                    continue
-                number = len(records) + 1
-                auto_id = f"{identifier}-pdf-{number:02d}"
-                image_path = ASSETS / f"{auto_id}.jpg"
-                image.save(image_path, quality=90, optimize=True)
-                record = base_record(auto_id, sections, paper_path, image_path)
-                record.update({
-                    "title": f"{record['paper_title'] or record['title']} · 自动抓取图 {number}",
-                    "why": f"从投稿论文 PDF 第 {page_number} 页自动抓取，尚未经过人工推荐。",
-                    "category": classify(" ".join([record["paper_title"], page_text])),
-                    "palette": palette(image),
-                    "recommended": False,
-                    "source_type": "pdf_auto",
-                    "pdf_page": page_number,
-                })
-                records.append(record)
-                if len(records) >= MAX_PDF_FIGURES:
-                    return records
-    finally:
-        document.close()
-    return records
-
-
 def main() -> None:
     sections = parse_sections(os.environ["ISSUE_BODY"])
     required = ["图片标题", "为什么觉得这张图好？", "以后可以用在哪里？", "科研图片"]
@@ -213,15 +168,16 @@ def main() -> None:
     chosen = clean(sections.get("分类")) or "自动分类"
     combined = " ".join(clean(sections.get(x)) for x in ["图片标题", "所属论文标题", "为什么觉得这张图好？", "以后可以用在哪里？"])
     main_record = base_record(identifier, sections, paper_path, image_path)
+    rating_text = clean(sections.get("推荐评分")) or "5"
+    rating_match = re.search(r"[1-5]", rating_text)
+    rating = int(rating_match.group(0)) if rating_match else 5
     main_record.update({
         "category": classify(combined) if chosen == "自动分类" else chosen,
         "palette": palette(image),
-        "recommended": True,
-        "source_type": "recommended",
+        "rating": rating,
+        "source_type": "submitted",
     })
     new_records = [main_record]
-    if paper_bytes:
-        new_records.extend(extract_pdf_records(paper_bytes, identifier, sections, paper_path))
 
     issue_number = int(os.environ["ISSUE_NUMBER"])
     records = [item for item in json.loads(DATA_FILE.read_text(encoding="utf-8")) if item.get("issue_number") != issue_number]
@@ -234,7 +190,6 @@ def main() -> None:
     if output:
         with Path(output).open("a", encoding="utf-8") as handle:
             handle.write(f"title={main_record['title']}\n")
-            handle.write(f"pdf_figures={len(new_records) - 1}\n")
 
 
 if __name__ == "__main__":

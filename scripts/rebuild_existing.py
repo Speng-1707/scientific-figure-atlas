@@ -10,8 +10,9 @@ for record in records:
     if image_path.exists():
         with Image.open(image_path) as image:
             record["palette"] = palette(image.convert("RGB"))
-    record.setdefault("recommended", True)
-    record.setdefault("source_type", "recommended")
+    record.setdefault("rating", 5)
+    record["source_type"] = "submitted"
+    record.pop("recommended", None)
     record.setdefault("contributor_name", record.get("author", "匿名投稿者"))
     record.setdefault("contributor_affiliation", "")
     record.setdefault("contributor_profile", "")

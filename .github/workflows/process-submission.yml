@@ -11,7 +11,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: figure-submissions
+  group: figure-data-updates
   cancel-in-progress: false
 
 jobs:
@@ -60,7 +60,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: `已完成分类与配色提取，并收录到[科研图鉴](${{ steps.deployment.outputs.page_url }})。本次另从 PDF 自动抓取 ${{ steps.process.outputs.pdf_figures }} 张图片。`
+              body: `已完成分类与配色提取，并收录到[科研图鉴](${{ steps.deployment.outputs.page_url }})。`
             });
             await github.rest.issues.update({
               owner: context.repo.owner,
