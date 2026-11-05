@@ -1,6 +1,6 @@
 name: 分享科研图片
 description: 上传一张优秀科研图片，可选附上论文 PDF
-title: "[投稿] "
+title: "[投稿] 请保留此前缀"
 body:
   - type: markdown
     attributes:

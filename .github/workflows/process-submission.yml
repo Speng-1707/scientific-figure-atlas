@@ -2,7 +2,7 @@ name: Process figure submission
 
 on:
   issues:
-    types: [opened]
+    types: [opened, edited, reopened]
 
 permissions:
   contents: write
@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   process:
-    if: startsWith(github.event.issue.title, '[投稿]')
+    if: contains(github.event.issue.body, '### 图片标题') && contains(github.event.issue.body, '### 科研图片')
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -72,7 +72,7 @@ jobs:
 
   report-failure:
     needs: process
-    if: failure() && startsWith(github.event.issue.title, '[投稿]')
+    if: failure() && contains(github.event.issue.body, '### 图片标题') && contains(github.event.issue.body, '### 科研图片')
     runs-on: ubuntu-latest
     permissions:
       issues: write
