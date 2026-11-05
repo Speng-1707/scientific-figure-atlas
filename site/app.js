@@ -1,5 +1,6 @@
 const config=window.FIGURE_ATLAS_CONFIG;let figures=[],selectionMode=false;const selected=new Set(),$=s=>document.querySelector(s),esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));let toastTimer;
 $('#submit-link').href=`https://github.com/${config.repository}/issues/new?template=${encodeURIComponent(config.submissionTemplate)}`;
+$('#quick-submit-link').href=`https://github.com/${config.repository}/issues/new?template=${encodeURIComponent(config.quickSubmissionTemplate)}`;
 function toast(m){$('#toast').textContent=m;$('#toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').hidden=true,2600)}
 function ratingOf(f){return Math.max(1,Math.min(5,Number(f.rating||(f.recommended===false?1:5))))}
 function ratingStars(f){const n=ratingOf(f);return `<span class="tag star" aria-label="推荐评分 ${n} 星">${'★'.repeat(n)}${'☆'.repeat(5-n)}</span>`}

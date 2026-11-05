@@ -11,7 +11,10 @@
 <body>
   <header>
     <a class="brand" href="./">◈ 科研图鉴 <span>FIGURE ATLAS</span></a>
-    <a class="button" id="submit-link" href="#">＋ 分享一张好图</a>
+    <div class="submit-actions">
+      <a class="button quick" id="quick-submit-link" href="#">⚡ 快速上传</a>
+      <a class="button" id="submit-link" href="#">＋ 完整投稿</a>
+    </div>
   </header>
   <main>
     <section class="hero">
@@ -28,7 +31,7 @@
     </section>
     <section class="how">
       <strong>如何投稿</strong>
-      <span>登录 GitHub → 填写投稿表 → 拖入图片和论文 → 自动处理并收录</span>
+      <span>快速上传只需一张图片；标题、论文和推荐说明可在之后编辑投稿时补充</span>
     </section>
     <div class="toolbar">
       <input id="search" type="search" placeholder="搜索标题、论文、推荐理由或未来用途…" aria-label="搜索收藏">

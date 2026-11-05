@@ -1,0 +1,42 @@
+name: 快速上传科研图片
+description: 从手机或电脑快速上传一张图片，其余信息以后补充
+title: "[快速投稿] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        只需上传一张图片即可。提交后系统会先以默认信息收录并提取配色。
+        以后可以编辑这条 GitHub 投稿，补充标题、论文、推荐理由和用途；网页会自动更新。
+  - type: textarea
+    id: image
+    attributes:
+      label: 科研图片
+      description: 在手机上点击输入框选择相册或文件；在电脑上可以选择文件或直接拖入图片。请等待附件链接出现后再提交。
+      placeholder: 点击选择或拖入 PNG、JPG、WebP、TIFF 图片
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: 图片标题
+      description: 可留空，以后再编辑补充。
+      placeholder: 可选
+  - type: textarea
+    id: why
+    attributes:
+      label: 为什么觉得这张图好？
+      description: 可留空，以后再编辑补充。
+      placeholder: 可选
+  - type: textarea
+    id: usage
+    attributes:
+      label: 以后可以用在哪里？
+      description: 可留空，以后再编辑补充。
+      placeholder: 可选
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: 公开分享确认
+      options:
+        - label: 我确认有权公开分享这张图片，并同意将其保存到公开仓库。
+          required: true

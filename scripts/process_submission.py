@@ -141,9 +141,12 @@ def base_record(identifier: str, sections: dict[str, str], paper_path: str, imag
 
 def main() -> None:
     sections = parse_sections(os.environ["ISSUE_BODY"])
-    required = ["图片标题", "为什么觉得这张图好？", "以后可以用在哪里？", "科研图片"]
-    if any(not clean(sections.get(field)) for field in required):
-        raise ValueError("投稿缺少必填字段")
+    if not clean(sections.get("科研图片")):
+        raise ValueError("投稿缺少图片附件")
+    issue_number = int(os.environ["ISSUE_NUMBER"])
+    sections["图片标题"] = clean(sections.get("图片标题")) or f"待补充标题 · 投稿 #{issue_number}"
+    sections["为什么觉得这张图好？"] = clean(sections.get("为什么觉得这张图好？")) or "快速上传，推荐理由待补充。"
+    sections["以后可以用在哪里？"] = clean(sections.get("以后可以用在哪里？")) or "未来用途待补充。"
     image_url = first_url(sections["科研图片"])
     if not image_url:
         raise ValueError("没有找到图片附件链接")
@@ -179,7 +182,6 @@ def main() -> None:
     })
     new_records = [main_record]
 
-    issue_number = int(os.environ["ISSUE_NUMBER"])
     records = [item for item in json.loads(DATA_FILE.read_text(encoding="utf-8")) if item.get("issue_number") != issue_number]
     records[0:0] = new_records
     rendered = json.dumps(records, ensure_ascii=False, indent=2) + "\n"
