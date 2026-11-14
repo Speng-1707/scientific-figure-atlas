@@ -1,5 +1,187 @@
 [
   {
+    "id": "anon-mwgdnunk-a05c54c9",
+    "title": "待补充标题",
+    "author": "anonymous",
+    "contributor_name": "匿名投稿者",
+    "contributor_affiliation": "",
+    "contributor_profile": "",
+    "paper_title": "",
+    "why": "快速上传，推荐理由待补充。",
+    "usage": "未来用途待补充。",
+    "image": "assets/anon-mwgdnunk-a05c54c9.jpg",
+    "paper": "",
+    "issue_number": "",
+    "issue_url": "",
+    "category": "其他 / 待分类",
+    "palette": [
+      {
+        "hex": "#AD6354",
+        "rgb": [
+          173,
+          99,
+          84
+        ],
+        "weight": 8.9
+      },
+      {
+        "hex": "#43577A",
+        "rgb": [
+          67,
+          87,
+          122
+        ],
+        "weight": 6.7
+      },
+      {
+        "hex": "#CB8C87",
+        "rgb": [
+          203,
+          140,
+          135
+        ],
+        "weight": 6.6
+      },
+      {
+        "hex": "#11386F",
+        "rgb": [
+          17,
+          56,
+          111
+        ],
+        "weight": 6.4
+      },
+      {
+        "hex": "#AF372C",
+        "rgb": [
+          175,
+          55,
+          44
+        ],
+        "weight": 6.3
+      },
+      {
+        "hex": "#BC7B6E",
+        "rgb": [
+          188,
+          123,
+          110
+        ],
+        "weight": 6.2
+      },
+      {
+        "hex": "#5F6171",
+        "rgb": [
+          95,
+          97,
+          113
+        ],
+        "weight": 5.9
+      },
+      {
+        "hex": "#627792",
+        "rgb": [
+          98,
+          119,
+          146
+        ],
+        "weight": 5.1
+      },
+      {
+        "hex": "#A24C40",
+        "rgb": [
+          162,
+          76,
+          64
+        ],
+        "weight": 4.5
+      },
+      {
+        "hex": "#ADBDC9",
+        "rgb": [
+          173,
+          189,
+          201
+        ],
+        "weight": 3.6
+      },
+      {
+        "hex": "#8F9FAB",
+        "rgb": [
+          143,
+          159,
+          171
+        ],
+        "weight": 3.1
+      },
+      {
+        "hex": "#CFABA7",
+        "rgb": [
+          207,
+          171,
+          167
+        ],
+        "weight": 3.1
+      },
+      {
+        "hex": "#3E4159",
+        "rgb": [
+          62,
+          65,
+          89
+        ],
+        "weight": 3.1
+      },
+      {
+        "hex": "#A7B2BC",
+        "rgb": [
+          167,
+          178,
+          188
+        ],
+        "weight": 1.9
+      },
+      {
+        "hex": "#9A8382",
+        "rgb": [
+          154,
+          131,
+          130
+        ],
+        "weight": 1.4
+      },
+      {
+        "hex": "#FCF3F1",
+        "rgb": [
+          252,
+          243,
+          241
+        ],
+        "weight": 9.9
+      },
+      {
+        "hex": "#969596",
+        "rgb": [
+          150,
+          149,
+          150
+        ],
+        "weight": 9.1
+      },
+      {
+        "hex": "#BDBEBF",
+        "rgb": [
+          189,
+          190,
+          191
+        ],
+        "weight": 8.2
+      }
+    ],
+    "rating": 5,
+    "source_type": "anonymous"
+  },
+  {
     "id": "anon-mw463so8-4fdf0e2f",
     "title": "待补充标题",
     "author": "anonymous",
